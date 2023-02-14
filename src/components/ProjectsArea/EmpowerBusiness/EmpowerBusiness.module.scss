@@ -1,0 +1,128 @@
+.mainDiv{
+    width:100%;
+    height:520px;
+    background-image: linear-gradient(to top , #B9CEDC, #249BEB );
+    z-index: 0;
+    position: relative;
+    
+}
+.grandParentDiv{
+    background-image: url('../../../../public/projectsImages/bg.png');
+    height: 520px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    position: relative;
+    bottom:0;
+    z-index: 1;
+}
+.parentDiv{
+  background-image: url('../../../../public/projectsImages/Group-7852-1536x275\ \(5\).png');
+ height: 520px;
+ background-repeat: no-repeat;
+ background-size:contain;
+ position: relative;
+ z-index: 2;
+  
+}
+.rightSide{
+    
+    
+}
+.contentBox{
+    padding-left:100px;
+    padding-top:100px
+}
+.groupImage{
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    left:-30px;
+    bottom:-60px;
+}
+.smallTitle{
+    font-size: 18px;
+    font-family: "Raleway", Sans-serif;
+    color:white;
+    font-weight: 600;
+}
+.bigTitle{
+    font-size: 60px;
+    font-family: "Raleway", Sans-serif;
+    color:white;
+    font-weight: 700;
+}
+.button{
+    background-color: #F69300;
+    font-weight: 700;
+    color:white;
+    padding: 15px 35px 15px;
+    border-radius:40px;
+    font-size: 18px;
+    font-family: "Raleway", Sans-serif;
+    margin-top:40px
+}
+.button:hover{
+    background-color: white;
+    color:#F69300;
+}
+
+// use media queries for responsive
+@media only screen and (max-width: 600px) {
+    .mainDiv{
+        width:100%;
+        height:600px;
+        background-image: linear-gradient(to top , #B9CEDC, #249BEB );
+        z-index: 0;
+        position: relative;
+        
+    }
+    .grandParentDiv{
+        background-image: url('../../../../public/projectsImages/bg.png');
+        height: 600px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover;
+        position: relative;
+        bottom:0;
+        z-index: 1;
+    }
+    .parentDiv{
+        background-image: url('../../../../public/projectsImages/Group-7852-1536x275\ \(5\).png');
+       height: 600px;
+       background-repeat: no-repeat;
+       background-size:contain;
+       position: relative;
+       z-index: 2;
+        
+      }
+      .button{
+        background-color: #F69300;
+        font-weight: 700;
+        color:white;
+        padding: 15px 35px 15px;
+        border-radius:40px;
+        font-size: 18px;
+        font-family: "Raleway", Sans-serif;
+        margin-top:30px
+    }
+      .bigTitle{
+        font-size: 35px;
+        font-family: "Raleway", Sans-serif;
+        color:white;
+        font-weight: 700;
+        margin-top:10px;
+    }
+    .contentBox{
+        padding-left:10px;
+        padding-top:10px;
+        padding-bottom:180px;
+    }
+    .groupImage{
+        width: 350px;
+        height: 450px;
+        position: absolute;
+        left:-30px;
+        bottom:-150px;
+    }
+}

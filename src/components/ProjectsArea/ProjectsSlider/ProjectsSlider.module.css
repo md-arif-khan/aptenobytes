@@ -1,0 +1,49 @@
+.carouselStyle{
+    /* ;
+    
+    background-image: linear-gradient(to bottom, #269DEB , #77C7FD); */
+    height: 300px;
+    width:100%;
+    background-image: url(https://aptenobytes.com/wp-content/uploads/2022/08/Group-334.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+
+}
+.carouselWidth{
+   width:900px;
+   text-align: center;
+   
+}
+.carouselButton{
+    background-color: #F69300;
+    border-radius: 30px;
+    color:white;
+    font-weight: bold;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:13px;
+    padding-bottom:13px;
+    margin-top:50px;
+}
+.carouselButton:hover{
+    background-color: white;
+    color:orange;
+    border:2px solid orange;
+}
+@media only screen and (max-width: 600px) {
+    .carouselWidth{
+        width:100%;
+        text-align: center;
+        padding:20px;
+        
+     }
+     .logo{
+        width:70px;
+        width:100px;
+     }
+}

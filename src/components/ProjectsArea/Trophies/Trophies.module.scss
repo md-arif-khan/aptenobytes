@@ -1,0 +1,132 @@
+.parentDiv{
+    padding-top:100px;
+    padding-bottom:150px;
+}
+.leftSide{
+    position: relative;
+    height: 700px;
+}
+.contentBox{
+    padding-left:120px;
+    padding-top:120px;
+    bottom:100px;
+}
+.smallTitle{
+    font-family: "Raleway", Sans-serif;
+    font-size: 18px;
+    color:#F69300;
+    font-weight: 600;
+}
+.bigTitle{
+    font-family: "Raleway", Sans-serif;
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 1;
+      margin-top:10px;
+}
+.button{
+    background-color: #F69300;
+    font-weight: 700;
+    color:white;
+    padding: 15px 35px 15px;
+    border-radius:40px;
+    font-size: 18px;
+    font-family: "Raleway", Sans-serif;
+    margin-top:40px
+}
+.button:hover{
+    background-color: white;
+    color:#F69300;
+}
+.content{
+    font-family: "Raleway", Sans-serif;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.cloudImage{
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+
+// right side style 
+.rightSide{
+    position: relative;
+    height: 700px;
+}
+.box{
+    height: 600px;
+    background-image: linear-gradient(to top left, #B9CEDC, #249BEB );
+    border-radius: 20px;
+    padding:10px;
+}
+.gropuImage{
+  position: absolute;
+  left:0;
+  bottom:0;
+}
+
+// use media quries for responsive
+@media only screen and (max-width: 600px) {
+    .parentDiv{
+        padding-top:40px;
+        padding-bottom:50px;
+    }
+    .leftSide{
+        position: relative;
+        height: 600px;
+    }
+    .rightSide{
+        position: relative;
+        height: 600px;
+    }
+    .box{
+        height: 500px;
+        background-image: linear-gradient(to top left, #B9CEDC, #249BEB );
+        border-radius: 20px;
+        padding:10px;
+        margin-top:20px;
+    }
+    .contentBox{
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:70px;
+        bottom:50px;
+    }
+    .content{
+        font-family: "Raleway", Sans-serif;
+        margin-top:15px;
+        margin-bottom:15px;
+        text-align: justify;
+    }
+    .button{
+        background-color: #F69300;
+        font-weight: 700;
+        color:white;
+        padding: 15px 35px 15px;
+        border-radius:40px;
+        font-size: 18px;
+        font-family: "Raleway", Sans-serif;
+        margin-top:20px
+    }
+    .cloudImage{
+        position: absolute;
+        left:0;
+        bottom:0;
+        width:150px;
+        height:100px;
+    }
+    .gropuImage{
+        position: absolute;
+        left:0;
+        bottom:0;
+        width:350px;
+      }
+      .bigTitle{
+        font-family: "Raleway", Sans-serif;
+          font-size: 40px;
+          font-weight: 600;
+          line-height: 1;
+          margin-top:10px;
+    }
+}

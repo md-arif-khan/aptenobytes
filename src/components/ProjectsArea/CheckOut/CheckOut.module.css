@@ -1,0 +1,76 @@
+.parentStyle{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cloudImage1Style{
+  position: absolute;
+  left:0;
+  bottom:0;
+}
+.cloudImage2Style{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.projectTitle{
+    font-weight: bold;
+    text-align: center;
+    color:#181C1D;
+    font-family: "Raleway", Sans-serif;
+    
+   
+}
+.projectSmallTitle{
+    color:#F69300;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Raleway", Sans-serif;
+}
+.description{
+    color:#535C6D;
+    margin: auto;
+    width:700px;
+    font-family: "Raleway", Sans-serif;
+}
+
+/* Media Queries for Responsive */
+@media only screen and (max-width: 600px) {
+    .projectTitle{
+      font-size: 35px;
+    }
+    .description{
+        font-size: 18px;
+        width: 100%;
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .parentStyle{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .cloudImage1Style{
+        position: absolute;
+        left:0;
+        bottom:0;
+        width:150px;
+        height: 100px;
+      }
+    .cloudImage2Style{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width:200px;
+        height:150px
+    }
+  }
